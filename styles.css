@@ -1,0 +1,149 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body,html {
+    margin: 0;
+    text-align: center;
+   font-family: 'Happy Monkey', cursive;
+}
+
+img {
+    width: 120px;
+   
+    border-radius: 50%;
+}
+
+h1 {
+font-family: 'Happy Monkey', cursive;  
+  font-size: 50px;
+ background: whitesmoke;
+ margin-top: 400px;
+ padding: 5px 20px;
+ border-radius: 15px;
+  text-shadow: 0px 0px 1px black;
+  padding: 5px 10px;
+  
+
+}
+h3 {
+  font-family: 'Happy Monkey', cursive; 
+}
+p {
+    font-size: 30px;
+    color: #1D3557;
+    font-family: 'Shadows Into Light', cursive;
+}
+h4 {
+    font-family: 'Happy Monkey', cursive;
+}
+
+#head2 {
+    font-family: 'Happy Monkey', cursive;
+   background: whitesmoke;  
+    padding: 5px 15px;
+    border-radius: 15px;
+     text-shadow: 0px 0px 1px black;
+     padding: 5px 10px;
+     margin-top: -1px;
+   
+}
+
+#steelyard {
+    height: 130px;
+}
+
+#dunes {
+   height: 130px; 
+   border-radius: 0%;
+}
+
+#hardrock {
+    height: 130px;  
+}
+
+.hero{
+    height: 150px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/gary.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding: 30px 0 500px 0;
+
+ 
+ 
+
+ 
+}
+
+.activities{
+    width: fit-content;
+    background-color: #F1FAEE; 
+  display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+     padding: 150px 100px; 
+      
+   
+     
+    
+}
+
+.guide{
+     width: 400px;
+    margin: 0 auto;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: #2b2839;
+    border-bottom: 6px solid black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 30px;
+}
+.me{
+    width: 180px;
+    height: 248.67px;
+    left: 173px;
+    top: 73px;
+    margin-left: -60px;
+
+}
+
+#guide-info{
+    
+}
+
+#bold {
+    font-weight: bolder; 
+    font-size: 25px;
+}
+
+#me-info{
+    font-style: italic;
+}
+#ID {
+    margin-right: 40px;
+}
+
+#HRC {
+    margin-left: 40px;
+}
